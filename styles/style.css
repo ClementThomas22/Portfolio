@@ -1,9 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
-    background-color: black;
-
+    color: #1f2c67;
 }
 
 .col-60{
@@ -15,14 +13,31 @@
 }
 
 .color-blue{
-    color: #add8e6;
+    color: #90ccec;
+}
+
+.pt-5{
+    padding-top: 5rem;
+}
+
+.pt-4{
+    padding-top: 4rem;
+}
+
+.pt-6{
+    margin-top: 6rem;
+}
+
+.w-75{
+    width: 75%;
 }
 
 header{
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
     height: 5rem;
     align-items: center;
+    /* background-color: #90ccec; */
 }
 
 body{
@@ -47,7 +62,6 @@ body{
 
 .section-presentation{
     height: 600px;
-    border-style: solid;
 }
 
 .titre-section-presenation{
@@ -55,29 +69,43 @@ body{
 }
 
 .style-bouton-presentation{
-    box-sizing: border-box;
-    width: 60%;
-    height: 3rem;
-    border-width: 1px;
-    justify-items: center;
-    align-content: center;
-    border-style: solid;
-    border-radius: 50px;
+    justify-items: left;
 }
 
 .texte-style-bouton{
+    height: 3rem;
     font-size: 16px;
+    align-content: center;
     font-weight: lighter;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .section-presentation-droite{
-    height: 80%;
+    height: 100%;
     background-image: url("images/pexels-creationhill-1681010.jpg");
     background-size: cover;
+    background-position: center;
     align-self: center;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .section-presentation-gauche{
-    row-gap: 100px;
+    position: relative;
+    /* align-self: center; */
+    transform: translateY(20%);
+}
+
+.group-fa{
+    display: flex;
+    column-gap: 1rem;
+    padding-top: 1rem;
+}
+
+.fa-size-25{
+    font-size: 30px;
 }
