@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    color: #1f2c67;
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
 }
 
 .col-60{
@@ -17,11 +22,15 @@
 }
 
 .color-blue{
-    color: #90ccec;
+    color: #429aca;
 }
 
 .pt-5{
     padding-top: 5rem;
+}
+
+.pt-2{
+    padding-top: 2rem;
 }
 
 .pb-5{
@@ -32,6 +41,11 @@
     padding-top: 4rem;
 }
 
+.pt-3{
+    padding-top: 3rem;
+}
+
+
 .pt-6{
     margin-top: 6rem;
 }
@@ -41,14 +55,15 @@
 }
 
 header{
-    width: 100%;
+    padding: 0px 12.5% 0px 12.5%;
     justify-content: space-between;
     height: 5rem;
     align-items: center;
+    border-bottom: 1px solid black;
     /* background-color: #90ccec; */
 }
 
-body{
+.body{
     width: 75%;
     justify-self: center;
 }
@@ -58,13 +73,13 @@ body{
 }
 
 .name{
-    font-size: 22px;
+    font-size: 29px;
     font-weight: bolder;
 }
 
 .navigation{
     column-gap: 4rem;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -104,8 +119,8 @@ body{
 
 .section-presentation-gauche{
     position: relative;
-    /* align-self: center; */
     transform: translateY(20%);
+    height: max-content;
 }
 
 .group-fa{
@@ -126,4 +141,27 @@ body{
 .section-presentation-cv{
     height: 100%;
     width: 100%;
+}
+
+.description{
+    width: 60%;
+}
+
+.link-hover{
+    transition: color 1s, transform 1s, text-decoration 1s;
+}
+
+.link-hover:hover{
+    color: #429aca;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.kso-fa{
+    width: 30px;
+    transition: transform 1s;
+}
+
+.kso-fa:hover{
+    transform: scale(5);
 }
