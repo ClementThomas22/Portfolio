@@ -13,3 +13,6 @@ Thumbs.db
 # Fichiers de sauvegarde
 *.bak
 *~
+
+# Documents personnels
+*.pdf
