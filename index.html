@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Full Stack</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Développeur Full Stack</h1>
+            <p>Étudiant M2 TIIL à Brest - Spécialisé en développement web et solutions e-learning</p>
+            <a href="#apropos" class="cta-button">Découvrir mon parcours</a>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <div class="container">
+            <h2 class="section-title fade-in">À propos</h2>
+            <div class="about-content fade-in">
+                <div class="about-image">
+                    <div class="profile-pic">
+                        <img src="clement.png" alt="Photo de profil - Clément Thomas">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Actuellement en Master 2 TIIL-A (Technologies de l'Information et Ingénierie du Logiciel par Alternance) à Brest, je réalise mon apprentissage chez E-learning Touch. Je suis passionné par le développement web et les technologies éducatives.</p>
+                    
+                    <p>Mon expertise se concentre sur le développement de solutions modulaires et maintenables, avec une forte expérience dans l'écosystème Moodle et le développement de plugins open source.</p>
+                    
+                    <p>Je privilégie toujours une approche centrée utilisateur, en créant des interfaces intuitives et des systèmes évolutifs qui répondent aux besoins réels des utilisateurs.</p>
+
+                    <div class="skills">
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Moodle</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Architecture modulaire</span>
+                        <span class="skill-tag">Open Source</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences">
+        <div class="container">
+            <h2 class="section-title fade-in">Expériences</h2>
+            
+            <div class="experiences">
+                <div class="experience-card fade-in">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div>
+                            <h3 class="experience-title">Refonte de catalogue de cours Moodle</h3>
+                            <div class="experience-subtitle">Développement • Architecture</div>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-tags">
+                            <span class="experience-tag">PHP</span>
+                            <span class="experience-tag">JavaScript</span>
+                            <span class="experience-tag">Mustache</span>
+                            <span class="experience-tag">Moodle</span>
+                            <span class="experience-tag">Architecture modulaire</span>
+                        </div>
+                        <div class="experience-description">
+                            Dans le cadre d'un projet de refonte d'un plugin Moodle de gestion de catalogue de cours, un employeur souhaitait améliorer la maintenabilité et la capacité de généralisation de l'outil existant. En tant que développeur, j'ai conçu et développé une nouvelle architecture modulaire en PHP, avec une interface dynamique reposant sur JavaScript et les templates Mustache propres à Moodle. Ce nouveau système, désormais intégré, a entièrement remplacé l'ancien outil.
+                        </div>
+                        <div class="experience-result">
+                            <strong>Résultats :</strong> Le plugin est aujourd'hui maintenu en interne, en tant que solution propriétaire, afin d'offrir une expérience personnalisée et différenciante à nos utilisateurs, par rapport aux solutions généralement disponibles dans l'écosystème Moodle. Cette refonte a permis d'optimiser la maintenabilité du code, de faciliter l'ajout de nouveaux cours, et de réduire significativement le temps requis pour les mises à jour.
+                        </div>
+                        <div class="experience-lesson">
+                            <strong>Leçon apprise :</strong> Cette expérience m'a confirmé qu'une architecture modulaire bien pensée est essentielle pour garantir la pérennité, l'évolutivité et la valeur ajoutée d'une application dans un contexte métier spécifique.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card fade-in">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div>
+                            <h3 class="experience-title">Plugin de téléchargement massif</h3>
+                            <div class="experience-subtitle">Open Source • Moodle Plugin</div>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-tags">
+                            <span class="experience-tag">PHP</span>
+                            <span class="experience-tag">Open Source</span>
+                            <span class="experience-tag">Moodle Directory</span>
+                        </div>
+                        <div class="experience-description">
+                            Dans le cadre d'un projet visant à simplifier la gestion des certificats sur Moodle, un employeur souhaitait permettre le téléchargement massif de ces documents par les administrateurs. J'ai repris un plugin open source existant, devenu obsolète et non maintenu depuis plusieurs années, afin de le remettre à niveau et de le rendre compatible avec les versions récentes de Moodle. Après refonte, je l'ai publié en open source sur le Moodle Directory, pour en faire bénéficier la communauté.
+                            <br><br>
+                            <a href="https://moodle.org/plugins/block_download_certificates" target="_blank" style="color: #d97757; text-decoration: none; font-weight: 500; border: 1px solid rgba(217, 151, 87, 0.3); padding: 8px 16px; border-radius: 6px; display: inline-block; margin-top: 10px; transition: all 0.3s;">
+                                <i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>Voir le plugin sur Moodle Directory
+                            </a>
+                        </div>
+                        <div class="experience-result">
+                            <strong>Résultats :</strong> Le plugin a permis d'automatiser un processus auparavant manuel et chronophage, d'améliorer l'expérience utilisateur des administrateurs de plateformes, et a connu une forte adoption dans l'écosystème Moodle.
+                        </div>
+                        <div class="experience-lesson">
+                            <strong>Leçon apprise :</strong> Cette expérience m'a appris que la remise à niveau et le partage de solutions open source peuvent non seulement prolonger la valeur d'un outil, mais aussi stimuler l'innovation et encourager la collaboration au sein d'une communauté.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card fade-in">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <h3 class="experience-title">Système de suivi de progression</h3>
+                            <div class="experience-subtitle">UX • Interface utilisateur</div>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-tags">
+                            <span class="experience-tag">JavaScript</span>
+                            <span class="experience-tag">UX Design</span>
+                            <span class="experience-tag">Gamification</span>
+                        </div>
+                        <div class="experience-description">
+                            Dans le cadre d'un projet d'amélioration du suivi des cours sur Moodle, un employeur souhaitait offrir aux apprenants une meilleure visibilité sur leur progression. J'ai conçu et développé un système de suivi visuel sous forme de barre de progression, intégrée à chaque section du cours et tenant compte de l'avancement des sous-activités.
+                        </div>
+                        <div class="experience-result">
+                            <strong>Résultats :</strong> Cette fonctionnalité a facilité le pilotage des apprentissages pour les formateurs, tout en renforçant l'engagement des apprenants grâce à une représentation claire et intuitive de leur progression.
+                        </div>
+                        <div class="experience-lesson">
+                            <strong>Leçon apprise :</strong> Cette expérience m'a confirmé que la mise en place d'outils visuels simples et explicites est un levier efficace pour améliorer la motivation et l'autonomie des utilisateurs dans un environnement d'apprentissage.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card fade-in">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3 class="experience-title">Site vitrine cabinet médical</h3>
+                            <div class="experience-subtitle">Web Development • CMS</div>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-tags">
+                            <span class="experience-tag">HTML/CSS</span>
+                            <span class="experience-tag">CMS</span>
+                            <span class="experience-tag">Responsive</span>
+                        </div>
+                        <div class="experience-description">
+                            Dans le cadre d'un projet pour un cabinet de kinésithérapie, l'objectif était de mettre en place un site vitrine simple à gérer et facilement actualisable par les praticiens. J'ai conçu et développé une solution modulable, permettant aux kinés de mettre à jour leur contenu de manière autonome, sans compétences techniques particulières.
+                            <br><br>
+                            <a href="https://kineosteobrest.fr/" target="_blank" style="color: #d97757; text-decoration: none; font-weight: 500; border: 1px solid rgba(217, 151, 87, 0.3); padding: 8px 16px; border-radius: 6px; display: inline-block; margin-top: 10px; transition: all 0.3s;">
+                                <i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>Voir le site
+                            </a>
+                        </div>
+                        <div class="experience-result">
+                            <strong>Résultats :</strong> Le site, clair et adaptable, offre une présentation efficace des services du cabinet tout en réduisant la dépendance à un prestataire externe pour la maintenance.
+                        </div>
+                        <div class="experience-lesson">
+                            <strong>Leçon apprise :</strong> Cette expérience m'a confirmé qu'une solution sobre mais flexible répond parfaitement aux besoins de structures de petite taille, en conciliant simplicité d'utilisation et autonomie.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in" style="color: white;">Contact</h2>
+                <p class="fade-in" style="font-size: 1.1rem; margin-bottom: 2rem;">
+                    Intéressé par mon profil ? N'hésitez pas à me contacter pour discuter de vos projets.
+                </p>
+                <div class="contact-links fade-in">
+                    <a href="mailto:clement.thomas22540@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/cl%C3%A9ment-thomas-432284331/" class="contact-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/ClementThomas22" class="contact-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Portfolio Développeur. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
